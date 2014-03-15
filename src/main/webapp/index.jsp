@@ -33,7 +33,7 @@
         <tbody>
             <c:forEach var="h" items="${header}">
                 <tr>
-                    <td><c:out value="${h.key}"/></td>
+                    <td nowrap="nowrap"><c:out value="${h.key}"/></td>
                     <td><c:out value="${h.value}"/></td>
                 </tr>
             </c:forEach>
